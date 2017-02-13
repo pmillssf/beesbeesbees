@@ -2,7 +2,8 @@ var Bee = function() {
   // Grub.call(this);
   Grub.call(this);
   this.age = 5;
-  
+  this.color = 'yellow';
+
 };
 // set Bee.prototype to Object.create(Grub.prototype);
 Bee.prototype = Object.create(Grub.prototype);
